@@ -1,6 +1,8 @@
 # CodeSnippets
 
-# // For Loop of a List
+# For Loop of a List
+```
+// For Loop of a List
   for (int i = 0; i < list.Count; i++)
   {
     // Your code here
@@ -8,17 +10,26 @@
     // string item = list[i];
     // if (string.IsNullOrEmpty(item)) {} else {}
   }
-
-# // Reversed For Loop of a List
+```
+# Reversed For Loop of a List
+```
+// Reversed For Loop of a List
 for (int i = list.Count - 1; i >= 0; i--)
 {
     // Your code here
     // "object" item = list[i];
     // string item = list[i];
-    // if (string.IsNullOrEmpty(item)) {} else {}
+    // if (string.IsNullOrEmpty(item)) {
+    //   list.RemoveAt(i);
+    //   list.Remove(item);
+    // } else {
+    // ...
+    // }
 }
-
-# // Reversed For Loop of an Array
+```
+# Reversed For Loop of an Array
+// Reversed For Loop of an Array
+```
 for (int i = myArray.Length - 1; i >= 0; i--)
 {
     // Your code here
@@ -26,3 +37,4 @@ for (int i = myArray.Length - 1; i >= 0; i--)
     // string item = list[i];
     // if (string.IsNullOrEmpty(item)) {} else {}
 }
+```
